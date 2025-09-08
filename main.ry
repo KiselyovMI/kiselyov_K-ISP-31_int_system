@@ -1,4 +1,4 @@
-import pandas as pd
+```import pandas as pd
 
 # 1. Загрузка данных из CSV файла
 df = pd.read_csv('ncr_ride_bookings.csv')
@@ -80,3 +80,4 @@ print(f"Период: с {march_2024_rides['ride_datetime'].min()} по {march_2
 print("\nРАСПРЕДЕЛЕНИЕ ПОЕЗДОК ПО МЕСЯЦАМ:")
 monthly_stats = df['month'].value_counts().sort_index()
 print(monthly_stats.head(12))
+```
